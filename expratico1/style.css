@@ -1,0 +1,59 @@
+
+header {
+    text-align: center;
+    border-style: dashed;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100px;
+}
+
+main {
+    border-style: dotted;
+    background-color: lightblue;
+    width: 80%; 
+    margin: top 5%; 
+    padding: 20px; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    
+}
+
+.contactos {
+    color: rgb(0,153,203);
+
+}
+
+.card1 {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    text-align: center;
+    display: inline-block;
+
+} 
+
+.card2 {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    text-align: center;
+    display: inline-block;
+} 
+
+.card3 {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    text-align: center;
+    display: inline-block;
+} 
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

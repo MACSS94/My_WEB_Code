@@ -1,0 +1,32 @@
+input.form-control {
+    width: 80px; 
+}
+
+
+textarea.form-control {
+    width: 90px; 
+}
+
+.enviar {
+
+    width: 100px;
+    height: 40px;
+}
+
+.mensagem {
+    color: rgb(0,153,203);
+
+}
+
+main {
+    color: rgb(224,244,255);
+}
+
+main {
+    background-color: grey;
+    border: 10px solid;
+}
+
+body {
+    background-color: palegoldenrod;
+}

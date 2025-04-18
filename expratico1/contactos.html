@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Soluções Informáticas Vortex - Contacte-nos</title>
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/css/styleformulario.css">
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <h1><b>Contacte-nos</b></h1>
+        <div id="registo" style="width:80%;margin-left: 10%;">
+            <form id="form_registo" method="POST" action="">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <label for="idemail" class="form-label">Para</label>
+                        <input type="email" id="idnome" class="form-control" name="ctxpara" placeholder="Email do destinatário">
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <label for="idmail" class="form-label">Cc:</label>
+                        <input type="email" id="idapelido" class="form-control" name="ctxemail1" placeholder="Email de remetente">
+                    </div>
+                </div>
+                <div class="row">
+                    <label for="idemail" class="form-label">Cco:</label>
+                    <input type="email" id="email" class="form-control" name="ctxemail2" placeholder="Email de remetente secundário">
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <label for="idassunto" class="form-label">Assunto:</label>
+                    <input type="text" id="idpass" class="form-control" name="ctx_pass" placeholder="Digite o assunto a tratar">
+                </div>
+                <div class="row">
+                    <label for="idconta" class="form-label">Conta: </label><input type="text" id="idmorada" class="form-control" name="ctx_morada" placeholder="Nome da sua conta">
+                </div>
+                <div class="row">
+                    <div class="mb-3">
+                        <label for="ficheiro" class="form-label">Anexar Ficheiro: </label>
+                        <input class="form-control" type="file" id="ficheiro">
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="mensagem" class="form-label">Mensagem</label>
+                    <textarea class="form-control" id="mensagem" rows="6" placeholder="Escreva a sua mensagem aqui"></textarea>
+                </div>
+                <div class="row">
+                    <label for="idmensagem" class="form-label">Assinatura: </label><input type="text" id="idmorada" class="form-control" name="ctxmensagem" placeholder="Nome da sua conta">
+                </div>
+        </div>
+        </div>
+        <p style="text-align: center; color: blue;">
+            <input type="submit" class="enviar" name="btn_regista" value="Enviar">
+        </p>
+        </form>
+        </div>
+    </main>
+    <footer>
+        <a href="/html/index.html">Voltar á página principal</a>
+    </footer>
+</body>
+
+</html>
