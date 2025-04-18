@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        
+        .container {
+            width: 300px;
+            margin: 50px auto;
+        }
+        
+        input,
+        select,
+        button {
+            margin-top: 10px;
+            padding: 10px;
+            width: 100%;
+        }
+        
+        .result {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Conversor de Moedas</h2>
+        <label for="amount">Valor em BRL:</label>
+        <input type="number" id="amount" placeholder="Digite o valor em BRL">
+
+        <button onclick="convert()">Converter</button>
+
+        <div id="output" class="result"></div>
+    </div>
+
+    <script>
+        // Taxas de câmbio fictícias para exemplo
+        const exchangeRates = {
+            USD: 0.18, // 1 BRL para USD
+            EUR: 0.16, // 1 BRL para EUR
+            GBP: 0.14, // 1 BRL para GBP
+            JPY: 20.50, // 1 BRL para JPY
+            AUD: 0.28, // 1 BRL para AUD
+        };
+
+        function convert() {
+            const amount = parseFloat(document.getElementById("amount").value);
+            if (isNaN(amount) || amount <= 0) {
+                document.getElementById("output").innerHTML = "Por favor, insira um valor válido.";
+                return;
+            }
+
+            // Conversão para cada moeda e criação de output
+            let outputText = `<p>Valor em BRL: ${amount.toFixed(2)}</p>`;
+            for (let currency in exchangeRates) {
+                const converted = amount * exchangeRates[currency];
+                outputText += `<p>${currency}: ${converted.toFixed(2)}</p>`;
+            }
+
+            document.getElementById("output").innerHTML = outputText;
+        }
+    </script>
+</body>
+
+</html>
