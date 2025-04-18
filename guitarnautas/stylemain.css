@@ -1,0 +1,123 @@
+body {
+    background-color: blue;
+    border: 20px double black;
+    margin: auto;
+}
+
+header {
+    padding: 10px;
+    margin: auto;
+    border: 10px dashed white;
+}
+
+h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100px;
+    margin: auto; 
+    background-color: white;
+    border: 10px dashed;
+}
+
+.nav {
+  text-align: center;
+  font-size: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 50px;
+  margin: auto;
+}
+
+a {
+    border: 10px double white;
+   text-decoration: none; 
+   color: black;
+   padding: 10px;
+   margin: auto;
+}
+
+a:hover {
+    background-color: red;
+}
+
+a:active {
+    background-color: yellow;
+}
+
+.guitaricon {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: auto;
+}
+
+.ampicon {
+    width: 100px;
+    height: 100px;
+    padding: 100px;
+    margin: auto;
+}
+
+.pedalicon {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: auto;
+}
+
+section {
+    color: white;
+}
+
+.w1 {
+    background-image: url(imagens/tubeamps.jpg);
+    height: 1000px;
+    border: 10px dashed white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 10px;
+    margin: auto;
+    text-align: justify;
+    
+}
+
+.w2 {
+    background-image: url(imagens/guitars.jpg);
+    height: 1000px;
+    border: 10px dashed white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: auto;
+    text-align: justify;
+    
+}
+
+.w3 {
+    background-image: url(imagens/pedals.jpg);
+    height: 1000px;
+    border: 10px dashed white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: auto;
+    text-align: justify;
+}
+
+.text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+footer {
+    background-image: url(/imagens/guitar2.jpg);
+    border: 10px dashed white;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
