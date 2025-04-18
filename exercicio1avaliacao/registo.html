@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Primeiro Site</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<style>
+		h1 {
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<header></header>
+	<main>
+		<!--<div id="geral">
+			<div class="col-lg-3 md-4 sm-6" style="height: 50px;background-color: orange;"></div>
+			<div class="col-lg-3 md-4 sm-6" style="height: 50px;background-color: blue;"></div>
+			<div class="col-lg-3 md-4 sm-6" style="height: 50px;background-color: green;"></div>
+			<div class="col-lg-3 md-4 sm-6" style="height: 50px;background-color: tomato;"></div>
+		</div>  -->
+		<h1><b>Registo de Utilizador</b></h1>
+		<div id="registo" style="width:80%;margin-left: 10%;">
+			<form id="form_registo" method="POST" action="">
+				<div class="row">
+					<div class="col-md-6 col-sm-12">
+						<label for="idnome" class="form-label">Nome:</label>
+						<input type="text" id="idnome" class="form-control" name="ctx_nome" placeholder="Insira o seu nome">
+					</div>
+					<div class="col-md-6 col-sm-12">
+						<label for="idapelido" class="form-label">Apelido:</label>
+					<input type="text" id="idapelido" class="form-control" name="ctx_apelido" placeholder="Insira o seu apelido">
+					</div>
+				</div>
+				<div class="row">
+					<label for="idemail" class="form-label">Email:</label>
+					<input type="email" id="email" class="form-control" name="ctx_email" placeholder="Preencha o seu email">
+				</div>
+				<div class="col-md-6 col-sm-12">
+					<label for="idpass" class="form-label">Password:</label>
+					<input type="email" id="idpass" class="form-control" name="ctx_pass" placeholder="Insira a password">
+				</div>
+				<div class="row">
+					<label for="idmorada" class="form-label">Morada:</label><input type="text" id="idmorada" class="form-control" name="ctx_morada" placeholder="Rua de cima, nº 805">
+				</div>
+				<div class="row">
+					<label for="idmorada2" class="form-label">Morada 2:</label><input type="text" id="idmorada2" class="form-control" name="ctx_morada2" placeholder="Apartamento, hotel, casa, etc">
+				</div>
+				<div class="row">
+					<div class="col-lg-4 col-md-6 col-sm-12">
+						<label for="idlocal" class="form-label">Cidade:</label>
+						<input type="text" id="idlocal" class="form-control" name="ctx_cidade" placeholder="Insira o conselho">
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12">
+						<label for="iddistrito" class="form-label">Distrito:</label>
+						<select class="form-select" aria-label="Distrito" class="form-control" name="ctx_distrito">
+							<option selected>Escolher</option>
+							<option value="1">Açores</option>
+							<option value="2">Aveiro</option>
+							<option value="3">Beja</option>
+							<option value="4">Braga</option>
+							<option value="5">Bragança</option>
+							<option value="6">Castelo Branco</option>
+							<option value="7">Coimbra</option>
+							<option value="8">Évora</option>
+							<option value="9">Faro</option>
+							<option value="10">Guarda</option>
+							<option value="11">Leiria</option>
+							<option value="12">Lisboa</option>
+							<option value="13">Madeira</option>
+							<option value="14">Portalegre</option>
+							<option value="15">Porto</option>
+							<option value="16">Santarém</option>
+							<option value="17">Setúbal</option>
+							<option value="18">Viana do Castelo</option>
+							<option value="19">Vila Real</option>
+							<option value="20">Viseu</option>
+						</select>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12">
+						<label for="idcp" class="form-label">Código-Postal:</label>
+						<input type="text" id="idcp" class="form-control" name="ctx_cod_postal" placeholder="xxxx-yyy">
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12">
+						<label for="idcp" class="form-label">Data Início:</label>
+						<input type="text" id="idcp" class="form-control" name="ctx_data_inicio" placeholder="dd/mm/aaaa">
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12">
+						<label for="idcp" class="form-label">Data final:</label>
+						<input type="text" id="idcp" class="form-control" name="ctx_data_final" placeholder="dd/mm/aaaa">
+					</div>
+				</div>
+					<div>
+					<input
+						type="checkbox"
+						id="click"
+						name="clickemmim"
+						value="newsletter" />
+					<label for="subscribeNews">Clique em mim</label>
+					</div>
+					<div>
+					</div>
+				</div>
+				<p style="text-align: center; color: blue;">
+					<input type="submit" class="btn btn-success" name="btn_regista" value="Inserir Registo">
+				</p>
+			</form>
+		</div>
+	</main>
+	<footer></footer>
+</body>
+</html>
