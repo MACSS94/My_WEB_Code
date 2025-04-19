@@ -1,0 +1,63 @@
+body{
+    
+    
+    
+}
+
+main {
+
+    background-color: grey;
+    width: 800px;
+    margin: auto;
+
+}
+h1 {
+
+    text-align: center;
+}
+
+.azul::first-line {
+
+    color: blue;
+
+}
+
+h1:hover {
+    background: red;
+
+}
+
+h1:active {
+
+    background: blue;
+}
+
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 800px;
+    height: 200px;
+    margin: auto;
+    background-color: yellow;
+}
+
+p::first-letter {
+    font-size: 40px;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2:hover {
+
+    background: red;
+}
+
+h2:active {
+    background: blue;
+}
+
+.fundo:hover {
+    background-color: green;
+}
+
+
