@@ -1,0 +1,4 @@
+Cor de background das divs: rgba(0,40,0,0.4);
+
+Posição do fundo 
+top center;
