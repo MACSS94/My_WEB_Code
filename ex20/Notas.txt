@@ -1,0 +1,8 @@
+Imagem:
+Altura mínima: 500px
+
+
+Div:
+Altura: 1000px;
+Tamanho da letra: 30px;
+Letra: branca, ao centro
