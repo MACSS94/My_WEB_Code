@@ -1,0 +1,5 @@
+O fundo tem de ficar sempre redimensionado, ocupando o espaço completo do browser.
+
+Caso o visitante mude o tamanho da janela, o Astronauta vai se mover para ficar sempre alinhado ao centro.
+
+O objetivo do exercicio é sobrepor as duas imagens e manter o conteúdo sempre no meio.
