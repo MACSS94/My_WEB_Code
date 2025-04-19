@@ -1,0 +1,46 @@
+main {
+    margin: auto;
+    width: 500px;
+}
+
+span {
+    text-decoration: overline black;
+    background-color: red;
+}
+
+div.static {
+    position: static;
+    border: 3px solid blue;
+    background-color: lightblue;
+}
+
+div.rel {
+    position: relative;
+    border: 3px solid blue;
+    background-color: lightblue;
+}
+
+.rel1 {
+    position: relative;
+    border: 3px solid blue;
+    background-color: lightblue;
+}
+
+.rel2 {
+    position: absolute;
+    border: 3px solid blue;
+    background-color: yellow;
+    width: 400px;
+    top: 450px;
+}
+
+h1 {
+    position: relative;
+}
+
+img {
+    width: 200px;
+    float: left;
+    padding-left: 200px;
+    padding-top: 100px;
+}
