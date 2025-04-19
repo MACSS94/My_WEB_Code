@@ -1,0 +1,18 @@
+body {
+    background-image: url(imagens/photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: orangered;
+    text-align: center;
+    margin: 100px;
+    font-size: 60px;
+}
+h3 {
+    color: orangered;
+    text-align: center;
+    margin: 100px;
+    font-size: 25px;
+}
