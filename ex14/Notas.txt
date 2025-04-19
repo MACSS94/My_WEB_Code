@@ -1,0 +1,6 @@
+Body
+
+width: 1000px;
+
+Colunas
+3 com 200px cada

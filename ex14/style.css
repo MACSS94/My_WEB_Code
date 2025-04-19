@@ -1,0 +1,9 @@
+.container {
+    column-count: 3;
+    text-align: justify;
+}
+
+.container1 {
+    column-count: 2;
+    text-align: justify;
+}
