@@ -1,0 +1,29 @@
+td{
+    border: 1px solid black;
+    padding: 10px;
+    
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.head1 {
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
+
+.head2 {
+    background-color: grey;
+    color: white;
+}
+
+.foot {
+    background-color: grey;
+    color: white;
+}
+
+#TI {
+    text-align: center;
+}
