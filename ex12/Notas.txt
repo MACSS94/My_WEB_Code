@@ -1,0 +1,12 @@
+Header (menu) com 4 opçoes
+
+Main com 
+
+2 sections (Super Mario e Sonic)
+1 article (Donky Kong
+
+fora do main
+
+aside com conteudo adicional
+
+Footer (rodape)
