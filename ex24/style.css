@@ -1,0 +1,37 @@
+td, th {
+    border: 1px solid black;
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+    width: 2000px;
+}
+
+.segunda {
+    background-color: greenyellow;
+}
+
+.sexta {
+    background-color: greenyellow;
+}
+
+.mes {
+    text-align: center;
+}
+
+.fda {
+    text-align: center;
+    background-color: grey;
+}
+
+.semana1 {
+    text-align: left;
+}
+
+div {
+    overflow-x: auto;
+}
+
+.x {
+    text-align: right;
+}
