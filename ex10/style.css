@@ -1,0 +1,49 @@
+body {
+    margin: auto;
+    width: 800px;
+}
+
+h2 {
+
+    color: orange;
+}
+
+.p1 {
+
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    
+}
+
+.p2 {
+    font-size: 20px;
+   
+}
+
+.s {
+
+    font-weight: bold;
+
+}
+
+div {
+    width: 272px;
+    margin: auto;
+    border-color: yellow;
+    border-style: solid;
+    
+}
+
+img {
+    
+    border: 3px solid grey;
+    padding: 10px;
+    
+    
+    
+    
+}
+    
+
+

@@ -1,0 +1,10 @@
+Largura do body:
+
+width: 800px;
+
+1º paragrafo:
+Italico, justificado, tipo de letra verdana
+
+Container da imagem:
+
+width 272px:
